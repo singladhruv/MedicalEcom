@@ -31,3 +31,38 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ===============================
+# Sensitive / local config
+# ===============================
+# Application properties that may contain credentials
+/src/main/resources/application.properties
+/src/main/resources/application-*.properties
+application.properties
+.env
+.env.*
+secrets.properties
+credentials.properties
+
+# Keystores and certs
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python, node
+venv/
+node_modules/
+
+# IDE misc
+*.iml
+.idea/
+
